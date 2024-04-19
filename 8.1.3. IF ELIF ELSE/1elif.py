@@ -12,6 +12,8 @@ tello = Tello()
 tello.connect()
 tello.takeoff()
 
+tello.enable_mission_pads()
+
 # distancia entre um missionpad e outro.
 DISTANCIA = 78
 
